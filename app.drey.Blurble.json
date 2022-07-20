@@ -39,6 +39,7 @@
             "name" : "blurble",
             "builddir" : true,
             "buildsystem" : "meson",
+            "config-opts" : [ "-Dprofile=default" ],
             "sources" : [
                 {
                     "type" : "git",
