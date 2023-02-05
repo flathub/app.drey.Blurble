@@ -1,0 +1,17 @@
+diff --git a/data/blurble.appdata.xml.in.in b/data/blurble.appdata.xml.in.in
+index f34fe6b..d497090 100644
+--- a/data/blurble.appdata.xml.in.in
++++ b/data/blurble.appdata.xml.in.in
+@@ -15,10 +15,10 @@
+ 
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://gitlab.gnome.org/World/Blurble/-/raw/main/data/screenshots/screenshot-1.png</image>
++      <image>https://gitlab.gnome.org/World/Blurble/-/raw/8fcbc14145528199cbbc7d4c611f246a619d0f0a/data/screenshots/screenshot-1.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://gitlab.gnome.org/World/Blurble/-/raw/main/data/screenshots/screenshot-2.png</image>
++      <image>https://gitlab.gnome.org/World/Blurble/-/raw/8fcbc14145528199cbbc7d4c611f246a619d0f0a/data/screenshots/screenshot-2.png</image>
+     </screenshot>
+   </screenshots>
+ 
