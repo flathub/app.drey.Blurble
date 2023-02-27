@@ -46,13 +46,9 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/pervoj/Blurble.git",
-                    "tag" : "v0.2.0",
-                    "commit" : "8f8f97765c3f3d42e47fb4028069bf864dd2beb7"
-                },
-                {
-                    "type": "patch",
-                    "path": "blurble-appdata.patch"
+                    "url" : "https://gitlab.gnome.org/World/Blurble.git",
+                    "tag" : "v0.3.0",
+                    "commit" : "7c8cb496c48ee1ba9fca3c70c893556d1a3bde0f"
                 }
             ]
         }
