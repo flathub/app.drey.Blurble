@@ -47,8 +47,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/World/Blurble.git",
-                    "tag" : "v0.3.0",
-                    "commit" : "7c8cb496c48ee1ba9fca3c70c893556d1a3bde0f"
+                    "tag" : "v0.4.0",
+                    "commit" : "237668582004fa2eb82e9e2d5ec61e5a6b47e415"
                 }
             ]
         }
