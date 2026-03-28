@@ -1,43 +1,32 @@
 {
-    "app-id" : "app.drey.Blurble",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "blurble",
-    "finish-args" : [
+    "app-id": "app.drey.Blurble",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "command": "blurble",
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
-    ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "blurble",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "config-opts" : [ "-Dprofile=default" ],
-            "sources" : [
+            "name": "blurble",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dprofile=default"
+            ],
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/World/Blurble.git",
-                    "tag" : "v0.4.0",
-                    "commit" : "237668582004fa2eb82e9e2d5ec61e5a6b47e415"
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/World/Blurble.git",
+                    "tag": "v0.4.0",
+                    "commit": "237668582004fa2eb82e9e2d5ec61e5a6b47e415"
                 },
                 {
-                    "type" : "patch",
-                    "path" : "fix_appdata.patch"
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
